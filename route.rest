@@ -1,0 +1,11 @@
+POST http://localhost:4000/api/user/
+Content-Type: application/json
+
+{
+    "name": "Joanita Nakityo",
+    "email": "joanita@gamil.com",
+    "password" : "12334"
+}
+
+GET http://localhost:4000/api/users
+
